@@ -1,0 +1,241 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=EB+Garamond&family=Montserrat:wght@100&display=swap');
+
+
+
+
+
+ .body_style {
+     background-image: url('image/25501.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ .city_search input {
+     width: 30%;
+     height: 56px;
+     margin-right: 20px;
+     border-radius: 4px;
+
+ }
+
+ .city_search {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 8%;
+ }
+
+ .city_search img {
+     height: 50px;
+
+ }
+
+ #temp_style {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     align-items: center;
+
+
+ }
+
+ #content_style {
+     border: 2px solid black;
+     border-radius: 6px;
+     width: 40%;
+     display: flex;
+     height: 438px;
+     margin-left: 30%;
+     justify-content: flex-start;
+     flex-direction: column;
+     align-items: center;
+     background-image: url('image/952.jpg');
+     font-family: 'Rubik Mono One', sans-serif;
+     font-size: 20px;
+     color: rgb(13, 7, 47);
+     margin-top: 40px;
+
+
+ }
+
+
+
+ #temp_style p {
+   
+     color: #07699d;
+ }
+
+ .city_style {
+     color: rgb(52 37 162);
+     letter-spacing: 2px;
+     font-size: 40px;
+     font-family: 'Rubik Mono One', sans-serif;
+
+ }
+
+ .div5day_style {
+     border: 2px solid black;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .divday_style {
+     border: 2px solid black;
+     margin: 5px;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+ }
+
+ #content5Days {
+     display: flex;
+     margin-left: 25%;
+     padding: 10px;
+     justify-content: center;
+     margin-left: 15;
+     flex-direction: column;
+     align-items: center;
+     width: 50%;
+     font-family: 'Bricolage Grotesque', sans-serif;
+     font-family: 'DM Serif Display', serif;
+     font-family: 'EB Garamond', serif;
+     font-family: 'Jost', sans-serif;
+
+     color: black;
+
+ }
+
+ .nameCity_style {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     position: fixed;
+
+ }
+
+ .history_style {
+     display: flex;
+     flex-direction: row;
+     cursor: pointer;
+     flex-wrap: nowrap;
+
+ }
+ .divImg_style img{
+    cursor: pointer;
+ }
+
+ .textContent5Days {
+     margin-right: 100px;
+ }
+
+ .textContent5Days_style p {
+     color: black;
+     text-align: center;
+ }
+
+ .windBackground_style {
+     background-image: url(image/compass.png);
+     width: 63px;
+     height: 65px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     flex-shrink: 0
+ }
+
+ .windBackground_style img {
+     margin: 18px 0 0 19px;
+     width: 25px;
+ }
+
+ .footer_style {
+     position: fixed;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+     padding-left: 1%;
+     height: 40px;
+     padding-top: 1%;
+     z-index: 30;
+ }
+
+ .footer_style p {
+     display: flex;
+     justify-content: flex-end;
+     color: black;
+ }
+
+ .header_style {
+     height: 80px;
+     font-size: 2em;
+     position: fixed;
+     top: 0px;
+     right: 0px;
+     left: 0px;
+     background-color: rgb(38, 9, 92);
+     ;
+     width: auto;
+     color: white;
+     text-align: center;
+     z-index: 30;
+ }
+
+
+ @media all and (max-device-width: 361px) {
+     #content_style {
+         width: 100%;
+         margin-left: 0px;
+     }
+
+     .city_search input {
+         width: 100%;
+     }
+
+     .header_style {
+         height: 43px;
+         font-size: 1em;
+         position: fixed;
+         top: 0px;
+         right: 0px;
+         left: 0px;
+         background-color: rgb(38, 9, 92);
+         width: auto;
+         color: white;
+         text-align: center;
+         z-index: 30;
+     }
+
+     #temp_style p {
+         color: #07699d;
+         text-align: center;
+     }
+ }
+
+ @media all and (max-device-width: 740px) and (orientation:landscape) {
+     #content_style {
+         width: 100%;
+         margin-left: 0px;
+     }
+
+     .city_search input {
+         width: 100%;
+     }
+
+     #temp_style p {
+         color: #07699d;
+         text-align: center;
+     }
+
+     .header_style {
+         height: 43px;
+         font-size: 1em;
+         position: fixed;
+         top: 0px;
+         right: 0px;
+         left: 0px;
+         background-color: rgb(38, 9, 92);
+         width: auto;
+         color: white;
+         text-align: center;
+         z-index: 30;
+     }
+ }
